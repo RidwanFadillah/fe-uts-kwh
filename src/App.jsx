@@ -17,7 +17,7 @@ import Wishlist from "./pages/Wishlist";
 import GreenPoints from "./pages/GreenPoints";
 import Cart from "./pages/Cart";
 import Messages from "./pages/Messages";
-import Checkout from "./pages/checkout";
+import Checkout from "./pages/Checkout";
 
 function LayoutWrapper() {
   const location = useLocation();
