@@ -42,6 +42,5 @@ jobs:
             echo "Preparing deployment..."
           SCRIPT_AFTER: |
             echo "Deployment completed!"
-            # Restart Nginx atau PM2 jika diperlukan
-            # sudo systemctl restart nginx
-            # pm2 restart all
+            sudo systemctl restart nginx
+            echo "Nginx restarted successfully!"
