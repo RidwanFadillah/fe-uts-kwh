@@ -89,7 +89,7 @@ export default function Products() {
           <div className="flex items-center justify-between mb-6">
             <div>
               <h1 className="font-space text-3xl font-bold text-warm-gray-900 mb-2">
-                Produk Ramah Lingkungan - CI/CD Test ✅
+                Produk Ramah Lingkungan
               </h1>
               <p className="font-inter text-sm text-warm-gray-600">
                 {filteredProducts.length} produk tersedia
